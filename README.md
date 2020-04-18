@@ -14,13 +14,13 @@ In this utility you can read the i2c device registers in raw binary output and f
 		"Welcome to iQ-i2c helper utility"
 		" Usages:"
 		" Read register:"
-		"   %s [-opts] read <bus> <device> <register> <length> [raw]"
+		"   [-opts] read <bus> <device> <register> <length> [raw]"
 		"     'raw' will dump the data as is, without this"
 		"     option it will be printed in hex."
 		"
 		" Write register:
-		"   %s [-opts] write <bus> <device> <register|-> "
-		"{<path>|<hexbytes>}"
+		"   [-opts] write <bus> <device> <register>|-> "
+		"   {<path>|<hexbytes>}"
 		"
 		"
 		"  <bus>      - i2c-bus id 1-4"
@@ -43,15 +43,15 @@ In this utility you can read the i2c device registers in raw binary output and f
 # How to read register of certain i2c device?
 You can read as mentioned below
 
-		"   %s [-opts] read <bus> <device> <register> <length> [raw]"
-		"     'raw' will dump the data as is, without this"
-		"     option it will be printed in hex"
+		" [-opts] read <bus> <device> <register> <length> [raw]"
+		" 'raw' will dump the data as is, without this"
+		"  option it will be printed in hex"
     
  # How to write register of certain i2c device?
  You can feed the file by providing its path
  
  		" Write register:"
-		"   %s [-opts] write <bus> <device> <register|-> "
+		" [-opts] write <bus> <device> <register>|-> "
 		"{<path>|<hexbytes>}"
     
  

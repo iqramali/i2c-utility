@@ -1,8 +1,8 @@
-#i2c-utility
 
-## Small i2c util program for Linux system to read and write the bus device registers for ARM devices.
 
-In this utility you can read the i2c device registers in raw binary output
+## iQ-i2c util program for Linux systems to use i2c commands in ARM devices.
+
+In this utility you can read the i2c device registers in raw binary output and feed the write data via file.
 
 # Prerequistes to compile this program
 1. Linux machine, 

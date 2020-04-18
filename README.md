@@ -1,15 +1,15 @@
 
 
-## iQ-i2c util program for Linux systems to use i2c commands in ARM devices.
+# iQ-i2c util program for Linux systems to use i2c commands in ARM devices.
 
 In this utility you can read the i2c device registers in raw binary output and feed the write data via file.
 
-# Prerequistes to compile this program
+### Prerequistes to compile this program
 1. Linux machine, 
 2. Cross-compiler `iQ-i2c.c` with `GCC`
 
 
-# This is the complete helper functions available in iQ-i2c utility
+## This is the complete helper functions available in iQ-i2c utility
 
 		"Welcome to iQ-i2c helper utility"
 		" Usages:"
@@ -40,14 +40,14 @@ In this utility you can read the i2c device registers in raw binary output and f
 		"     -r      - raw binary output (not hex)"
 		"     -f      - force device access even if locked by driver"
   
-# How to read register of certain i2c device?
+## How to read register of certain i2c device?
 You can read as mentioned below
 
 		" [-opts] read <bus> <device> <register> <length> [raw]"
 		" 'raw' will dump the data as is, without this"
 		"  option it will be printed in hex"
     
- # How to write register of certain i2c device?
+ ## How to write register of certain i2c device?
  You can feed the file by providing its path
  
  		" Write register:"

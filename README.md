@@ -1,6 +1,6 @@
 
 
-# iQ-i2c util program for Linux systems to use i2c commands in ARM devices.
+# iQ-i2c util program for ARM Linux device.
 
 In this utility you can read the i2c device registers in raw binary output and feed the write data via file.
 

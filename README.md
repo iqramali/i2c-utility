@@ -52,6 +52,6 @@ You can read as mentioned below
  
  		" Write register:"
 		" [-opts] write <bus> <device> <register>|-> "
-		"{<path>|<hexbytes>}"
+		" {<path>|<hexbytes>}"
     
  

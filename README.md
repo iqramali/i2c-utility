@@ -6,7 +6,7 @@ In this utility you can read the i2c device registers in raw binary output and f
 
 # Prerequistes to compile this program
 1. Linux machine, 
-2. Cross-compiler iQ-i2c.c with GCC compiler
+2. Cross-compiler `iQ-i2c.c` with `GCC`
 
 
 # This is the complete helper functions available in iQ-i2c utility
